@@ -113,7 +113,7 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
 
                 # Search for the specific device by name
                 qubo_device = None
-                target_name = "Smart Plug 16A"
+                target_name = "Smart Plug WiFi 16A"
 
                 for device in devices:
                     if device.get("deviceName") == target_name:
